@@ -1,0 +1,13 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+        <div class="container">
+            <div id="posts" class="my-5"></div>
+        </div>
+{% endblock %}
+{% block script %}
+    <!--reactComponet-->
+    <script type="text/babel" src="{% static 'network/reactComponent.js' %}"></script>
+    
+{% endblock %}

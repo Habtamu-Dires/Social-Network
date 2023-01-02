@@ -1,0 +1,15 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+    <div class="container">
+        <div id="post-form"></div>
+    </div>
+    
+{% endblock %}
+{% block script %}
+    <!--<script src="{% static 'network/index.js' %}"></script> -->
+    <!--reactComponet-->
+    <script type="text/babel" src="{% static 'network/postFormComponent.js' %}"></script>
+    
+{% endblock %}

@@ -1,0 +1,21 @@
+.new-post{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+}
+.new-post input[type=button]{
+    margin: 10px;
+    font-size: 10px;
+}
+
+#message {
+    display: none; 
+    border-style: none;
+}
+#message:focus{
+    outline: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
